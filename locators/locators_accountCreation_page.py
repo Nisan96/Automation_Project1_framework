@@ -22,6 +22,6 @@ class accountCreation_locators:
     ZIPCODE = (By.CSS_SELECTOR, "#zipcode")
     MOBILE = (By.CSS_SELECTOR, "#mobile_number")
 
-    CREATE_ACCOUNT_BUTTON = (By.CSS_SELECTOR, "[action] .btn-default")
+    CREATE_ACCOUNT_BUTTON = (By.CSS_SELECTOR, "section#form > .container form[method='post'] > .btn.btn-default")
 
     account_created = (By.CSS_SELECTOR, ".text-center.title > b")

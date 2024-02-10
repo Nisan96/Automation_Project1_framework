@@ -4,3 +4,4 @@ class SignUp:
     # random email generation
     fake_email = Faker()
     email = fake_email.email()
+    Email = email

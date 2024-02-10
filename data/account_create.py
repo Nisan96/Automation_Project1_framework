@@ -2,7 +2,7 @@ from data.sign_up import SignUp
 class Account_Create:
     ### ENTER ACCOUNT INFORMATION
     name = SignUp.name
-    email = SignUp.email
+    email = SignUp.Email
     password = "Lord#1996"
     day = '16'
     month = "12"

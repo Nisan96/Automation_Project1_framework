@@ -113,7 +113,11 @@ class BasePage:
         """
         element = self.wait_for_element(by, value)
         select = Select(element)
-        return [option.text for option in select.all_selected_options]
+        tl = []
+        for option in select.all_selected_options:
+            tl.append(option.text)
+        return tl
+        #return [option.text for option in select.all_selected_options]
 
     def upload_file(self, by, value, file_path):
         """

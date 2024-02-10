@@ -1,5 +1,4 @@
 import time
-
 from data.account_create import Account_Create
 from data.sign_up import SignUp
 from config.screenshot_file_config import screenshotFileConfig
@@ -20,7 +19,7 @@ def test_accountCreation(setup):
     home_page.click_Signup_Login()
 
     signup_page.enter_name(SignUp.name)
-    signup_page.enter_email(SignUp.email)
+    signup_page.enter_email(SignUp.Email)
     signup_page.click_signup()
 
     assert account.get_enter_account_information_text(),"ENTER ACCOUNT INFORMATION"
@@ -56,7 +55,7 @@ def test_accountCreation(setup):
     account_log.logger.info("Account Created Message Shown Successfully")
 
     option = account.get_day_dropdown_all_options()
-    #print(option)
+    print(option)
     account_log.logger.info(option)
 
     account_log.close_logger()

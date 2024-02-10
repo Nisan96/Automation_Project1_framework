@@ -1,8 +1,29 @@
-2024-02-02 16:55:45 - INFO - Start Product Details Page execution
-2024-02-02 16:55:51 - INFO - Home page displayed
-2024-02-02 16:55:55 - INFO - Products button from home page press successfully
-2024-02-02 16:55:55 - INFO - All Products section displayed
-2024-02-02 16:55:55 - INFO - Product List is visible
-2024-02-02 16:55:57 - INFO - click view product successfully
-2024-02-02 16:55:57 - INFO - landed on product details page
-2024-02-02 16:55:57 - INFO - Product Details (product name, category, price, availability, condition, brand) is visible
+2024-02-09 16:08:15 - INFO - Start Product Details Page execution
+2024-02-09 16:08:21 - INFO - Home page displayed
+2024-02-09 16:08:24 - INFO - Products button from home page press successfully
+2024-02-09 16:08:24 - INFO - All Products section displayed
+2024-02-09 16:08:24 - INFO - Product List is visible
+2024-02-09 16:08:37 - INFO - Start Registerd Email signup execution
+2024-02-09 16:08:43 - INFO - Home page displayed
+2024-02-09 16:08:46 - INFO - SignUp button from home page press successfully
+2024-02-09 16:08:47 - INFO - New User Signup section displayed
+2024-02-09 16:08:47 - INFO - Enter name successfully
+2024-02-09 16:08:47 - INFO - Enter email successfully
+2024-02-09 16:08:49 - INFO - press signup button successfully
+2024-02-09 16:08:49 - INFO - Email alredy exist message displayed
+2024-02-09 16:08:56 - INFO - Start Search Product Page execution
+2024-02-09 16:09:00 - INFO - Home page displayed
+2024-02-09 16:09:05 - INFO - Products button from home page press successfully
+2024-02-09 16:09:05 - INFO - Navigated to ALL PRODUCTS page Successfully
+2024-02-09 16:09:05 - INFO - Input product name in searchBox successfully
+2024-02-09 16:09:15 - INFO - click search button successfully
+2024-02-09 16:09:15 - INFO - ---Searched Products Section is visible---
+2024-02-09 16:09:15 - INFO - ---The Product related to search are visible---
+2024-02-09 16:09:22 - INFO - Start SignUp execution
+2024-02-09 16:09:26 - INFO - Home page displayed
+2024-02-09 16:09:27 - INFO - SignUp button from home page press successfully
+2024-02-09 16:09:28 - INFO - New User Signup section displayed
+2024-02-09 16:09:28 - INFO - Enter name successfully
+2024-02-09 16:09:28 - INFO - Enter email successfully
+2024-02-09 16:09:30 - INFO - press signup button successfully
+2024-02-09 16:18:12 - INFO - Start Product Details Page execution

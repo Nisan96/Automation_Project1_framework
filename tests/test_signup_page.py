@@ -30,7 +30,13 @@ def test_signup(setup):
     signup_log.logger.info("Enter email successfully")
     signup_page.click_signup()
     signup_log.logger.info("press signup button successfully")
-    signup_page.capture_screenshot(screenshotFileConfig.screenshot_file_location_signup + "\\screenshot_Create_account.png")
+
+    if signup_page.get_page_title() == "Automation Exercise - Signup":
+        signup_page.capture_screenshot(
+            screenshotFileConfig.screenshot_file_location_signup + "\\screenshot_Create_account.png")
+        signup_log.logger.info("signup successfully")
+    else:
+        signup_log.logger.info("can't signup....raise some problem")
 
     signup_log.close_logger()
 
